@@ -4,6 +4,6 @@ all:
 	jar -cfm graph.jar MANIFEST.MF -C build/ com/rahul/graph/ -C src/ testFiles/
 
 clean:
-	rm -r build/
-	rm graph.jar
+	rm -rf build/
+	rm -f graph.jar
 	
