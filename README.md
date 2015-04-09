@@ -1,4 +1,4 @@
-Shortest Path Using Graph
+# Shortest Path Using Graph
 
 This project uses a dictionary to find the shortest path from 
 a source word to a destination word by changing only one letter 
@@ -7,13 +7,13 @@ at a time.
 It also ensures that each intermediate word also belongs to the
 dictionary.
 
-Running the tests (from the project directory):
+## Running the tests (from the project directory):
 
-Using the Command line:
-$make clean
-$make
-$java -jar graph.jar
+Using the command line:
 
-Using Eclipse:
+    $ make clean
+    $ make
+    $ java -jar graph.jar
+
 The project can also be imported into Eclipse as a standard java 
 project.
